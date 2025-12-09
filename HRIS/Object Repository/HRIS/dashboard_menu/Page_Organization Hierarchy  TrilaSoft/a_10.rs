@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_10</name>
+   <tag></tag>
+   <elementGuidId>285547f5-2ae1-4a99-aa3b-db1d80afa5bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-menu']/div/ul/li[18]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(18) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Payroll&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>56427ba1-89bf-4dba-b9d9-b264ddf7f66b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Payroll </value>
+      <webElementGuid>9d4e5a1e-2831-4ca9-b274-dabaee67c60d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-menu&quot;)/div[@class=&quot;menu_section active&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[18]/a[1]</value>
+      <webElementGuid>40d09541-30dd-4f34-8d6b-6b14bda3275d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-menu']/div/ul/li[18]/a</value>
+      <webElementGuid>c9f55778-6286-4db8-8539-ffbc2e1d2e52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Payroll')]</value>
+      <webElementGuid>a75744e7-a4b7-422e-9389-a7150b67b95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grant Permission'])[1]/following::a[1]</value>
+      <webElementGuid>9712c54a-0602-4304-ba53-f43a509b7259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permissions'])[1]/following::a[2]</value>
+      <webElementGuid>f110b6a3-a52c-4ae3-a4cc-bfd6530ae2a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salary Structure'])[1]/preceding::a[1]</value>
+      <webElementGuid>1c9661cb-3fd0-4f44-9354-10dda484ee7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Salary Component'])[1]/preceding::a[2]</value>
+      <webElementGuid>ccb6521a-b041-420e-a3f0-bcac7187dbd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Payroll']/parent::*</value>
+      <webElementGuid>d8ff6ef5-589f-4f97-ba29-605f270a3d48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[18]/a</value>
+      <webElementGuid>9235cfb8-3322-46b0-b88b-6169eb4e6e9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = ' Payroll ' or . = ' Payroll ')]</value>
+      <webElementGuid>9ee9d726-c3aa-4e7b-91d6-38e39063037c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

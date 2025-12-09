@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_4</name>
+   <tag></tag>
+   <elementGuidId>86705e90-8ee4-404b-9c4d-db631a073cf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-menu']/div/ul/li[11]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(11) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Trainings&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c683ec1f-1626-4a9d-a17d-1c9cf5e28105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://qahris.trilasoft.com/training/list</value>
+      <webElementGuid>a31bfc12-6274-43d5-aee3-3fae8617e22c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Trainings</value>
+      <webElementGuid>c4ac5d59-d652-4f54-ad9c-7d9fd6c718f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-menu&quot;)/div[@class=&quot;menu_section active&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[11]/a[1]</value>
+      <webElementGuid>c84366d1-e4c1-4ab9-85c7-786b069babb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-menu']/div/ul/li[11]/a</value>
+      <webElementGuid>caa4d1fa-6dcf-440b-81de-1552a69de89a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Trainings')]</value>
+      <webElementGuid>ca26d3dd-f58c-46fc-8b9a-f0d998be53bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave Report'])[1]/following::a[1]</value>
+      <webElementGuid>2066ddf1-c63d-4977-808c-cb5478cec6fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Performance Report'])[1]/following::a[2]</value>
+      <webElementGuid>3b1fd5cb-6e67-41af-9ca4-9f3bd368f6f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recruitment'])[1]/preceding::a[1]</value>
+      <webElementGuid>338ac4ed-878e-4d5c-bf41-153de3af38cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manpower'])[1]/preceding::a[2]</value>
+      <webElementGuid>948a8ef2-c2f1-4fff-89be-61f383f8d5dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Trainings']/parent::*</value>
+      <webElementGuid>773db51d-55ba-4774-9548-dfff5a7221a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://qahris.trilasoft.com/training/list')]</value>
+      <webElementGuid>e34f362c-b723-47c1-b7c7-1bb2c0c2a63c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/a</value>
+      <webElementGuid>d229dc90-c64f-4fdb-bc50-532b58d7eba1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://qahris.trilasoft.com/training/list' and (text() = ' Trainings' or . = ' Trainings')]</value>
+      <webElementGuid>d442f3d4-ae3f-4706-8bf7-0d424cb7f2c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

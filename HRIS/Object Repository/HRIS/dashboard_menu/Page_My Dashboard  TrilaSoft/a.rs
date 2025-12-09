@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a</name>
+   <tag></tag>
+   <elementGuidId>155996d6-6b63-462f-a60b-8c6aeb8395c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-menu']/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.current-page > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; My Dashboard&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ef19fc2f-2823-4f95-bbd9-58d876c98343</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://qahris.trilasoft.com/user/dashboard</value>
+      <webElementGuid>c5e2b101-d9b4-4560-ade8-c56f6a4bcce0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> My Dashboard</value>
+      <webElementGuid>d0cadefc-fd64-499c-8c27-1d2bb6a18896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-menu&quot;)/div[@class=&quot;menu_section active&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[@class=&quot;current-page&quot;]/a[1]</value>
+      <webElementGuid>76d2b4b6-5e03-4690-b107-55845b5a820c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-menu']/div/ul/li/a</value>
+      <webElementGuid>3fbe76dc-6c46-49e7-8212-0da1eb7e62d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'My Dashboard')]</value>
+      <webElementGuid>91f64e07-b954-4a02-942b-625dd111b15a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Documents'])[1]/preceding::a[1]</value>
+      <webElementGuid>2e674c33-7b98-41c7-9917-7a99505fb98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[1]/preceding::a[2]</value>
+      <webElementGuid>527b728e-fd94-4f8e-a64d-ecb77a4329fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Dashboard']/parent::*</value>
+      <webElementGuid>3456f4b5-6574-42f7-aeba-bbd4073381ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://qahris.trilasoft.com/user/dashboard')])[2]</value>
+      <webElementGuid>462312bc-6481-43a6-bf16-2602019ca7b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>0f59eba9-73f9-4e17-9a83-b771b8b34792</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://qahris.trilasoft.com/user/dashboard' and (text() = ' My Dashboard' or . = ' My Dashboard')]</value>
+      <webElementGuid>63dec4b8-9025-428d-a690-a01abf5952b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

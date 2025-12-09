@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Departing Employees List_panel-heading</name>
+   <tag></tag>
+   <elementGuidId>6255bcd8-2f53-4509-be76-252e99358be8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='departingEmployeeData']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.panel-heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Departing Employees Data$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>318eebf8-cd73-4c50-8cb4-73a3a9fbc423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>panel-heading</value>
+      <webElementGuid>8e0500fc-af17-4399-a927-c972876ba3a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Departing Employees Data</value>
+      <webElementGuid>cc370a75-a177-4fd6-b63e-7c5fb0a27604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;departingEmployeeData&quot;)/div[@class=&quot;panel panel-primary&quot;]/div[@class=&quot;panel-heading&quot;]</value>
+      <webElementGuid>43995ae5-fcd2-4b6e-81ed-cc8ebdf2ce93</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='departingEmployeeData']/div/div</value>
+      <webElementGuid>34274d6e-8e3b-4564-85bc-d40eee948ce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departing Employees List'])[1]/following::div[4]</value>
+      <webElementGuid>ffd63985-2b51-408d-8ce3-0afb2af9ff7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departing Employees Data'])[1]/following::div[4]</value>
+      <webElementGuid>81852c1b-2cff-40d4-a343-65454654f337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departing Employees Data'])[3]/preceding::div[2]</value>
+      <webElementGuid>514f9951-8f4b-460b-a3be-890b5d90ceab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departing Employees List'])[2]/preceding::div[17]</value>
+      <webElementGuid>65c2aa87-9450-496c-9b4c-3ac12953ad1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>4355f497-13b4-4005-b2ae-d9135287a007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Departing Employees Data' or . = 'Departing Employees Data')]</value>
+      <webElementGuid>5e7ced29-b877-416c-9747-dc071e66233d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

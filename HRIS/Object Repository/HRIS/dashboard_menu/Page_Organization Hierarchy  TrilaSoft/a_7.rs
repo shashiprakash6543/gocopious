@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_7</name>
+   <tag></tag>
+   <elementGuidId>acccebcb-120a-4b00-8995-27f70941793f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebar-menu']/div/ul/li[15]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(15) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Invoicing&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3682389c-e7c8-4ee6-a554-be441cabe37c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://qahris.trilasoft.com/invoicing/view</value>
+      <webElementGuid>0068234c-731a-4165-b8c2-55be6b36f79c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Invoicing</value>
+      <webElementGuid>a7dbc813-7fda-4788-b14f-facaa43786bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-menu&quot;)/div[@class=&quot;menu_section active&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[15]/a[1]</value>
+      <webElementGuid>a6e784fb-8837-40f8-8e2d-b128e8a4eb79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebar-menu']/div/ul/li[15]/a</value>
+      <webElementGuid>d5de4a0d-fb48-4ba8-b648-2613a19d567d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Invoicing')]</value>
+      <webElementGuid>ed0f2478-fe7c-4a12-a119-f5f1bab958ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Expenses'])[1]/following::a[1]</value>
+      <webElementGuid>781db874-1e90-48b2-9197-823c5c147856</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Expenses'])[1]/following::a[2]</value>
+      <webElementGuid>da8e8e51-7cbc-40b1-9087-e7435eb96dce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/preceding::a[1]</value>
+      <webElementGuid>004ce2ad-40b1-46bf-96a6-e1e7d6b633a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companies'])[1]/preceding::a[2]</value>
+      <webElementGuid>66971ebc-9ca0-492b-ad66-2e2cf10b468b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invoicing']/parent::*</value>
+      <webElementGuid>a82574f5-8283-4bfb-b10e-c3250606fb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://qahris.trilasoft.com/invoicing/view')]</value>
+      <webElementGuid>2bd0d6e7-efa0-4018-a813-bff7234c4b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[15]/a</value>
+      <webElementGuid>0a5ebb9d-ecb6-4566-97fb-7d847672bc18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://qahris.trilasoft.com/invoicing/view' and (text() = ' Invoicing' or . = ' Invoicing')]</value>
+      <webElementGuid>70cf6d2b-64a2-480b-aa5a-9da4b09e0816</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

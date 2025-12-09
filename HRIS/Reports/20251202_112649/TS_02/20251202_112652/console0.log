@@ -1,0 +1,222 @@
+2025-12-02 11:27:38.474 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-02 11:27:38.477 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Shashi Prasanjit\Katalon Studio\HRIS\Include\config\log.properties
+2025-12-02 11:27:38.584 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_02
+2025-12-02 11:27:38.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-02 11:27:38.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-02 11:27:38.721 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - 192.168.1.3
+2025-12-02 11:27:38.721 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-02 11:27:38.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.3
+2025-12-02 11:27:38.724 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-02 11:27:39.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-02 11:27:39.214 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase6
+2025-12-02 11:27:39.536 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-02 11:27:39.751 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-02 11:27:39.800 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 02, 2025 11:27:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-02 11:27:41.237 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2337125ee771c1e7066a2d820e0fc280
+2025-12-02 11:27:41.238 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-12-02 11:27:41.239 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-02 11:27:41.240 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-02 11:27:41.248 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-02 11:27:41.901 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-02 11:27:42.881 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-02 11:27:43.268 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-02 11:27:43.766 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-02 11:27:43.782 DEBUG testcase.testcase6                       - 6: println(title)
+Login | TrilaSoft
+2025-12-02 11:27:43.785 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-02 11:27:43.790 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/HRIS/SignIn/testcase6 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'Login | TrilaSoft'
+
+	at testcase6.run(testcase6:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764655012951.run(TempTestSuite1764655012951.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-02 11:27:43.798 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/HRIS/SignIn/testcase6 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'Login | TrilaSoft'
+
+	at testcase6.run(testcase6:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764655012951.run(TempTestSuite1764655012951.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-02 11:27:43.801 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase6
+2025-12-02 11:27:43.805 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-02 11:27:43.805 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase7
+2025-12-02 11:27:43.815 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-02 11:27:43.819 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-02 11:27:44.053 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-02 11:27:44.055 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 02, 2025 11:27:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-02 11:27:44.833 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dcb9e4ea41c53e44533aa1c28749e562
+2025-12-02 11:27:44.834 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-12-02 11:27:44.834 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-02 11:27:44.834 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-02 11:27:44.834 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-02 11:27:45.358 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-02 11:27:55.410 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2025-12-02 11:27:55.799 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-02 11:27:56.442 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-02 11:27:56.987 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-02 11:27:56.998 DEBUG testcase.testcase6                       - 6: println(title)
+Login | TrilaSoft
+2025-12-02 11:27:56.999 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-02 11:27:57.001 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/HRIS/SignIn/testcase7 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'Login | TrilaSoft'
+
+	at testcase6.run(testcase6:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764655012951.run(TempTestSuite1764655012951.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-02 11:27:57.002 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/HRIS/SignIn/testcase7 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'Login | TrilaSoft'
+
+	at testcase6.run(testcase6:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1764655012951.run(TempTestSuite1764655012951.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-02 11:27:57.004 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase7
+2025-12-02 11:27:57.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-02 11:27:57.008 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase8
+2025-12-02 11:27:57.014 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-02 11:27:57.017 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-02 11:27:57.273 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-02 11:27:57.274 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 02, 2025 11:27:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-02 11:27:58.031 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 76c038f2dc443aae1734bd32e2a61919
+2025-12-02 11:27:58.031 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-12-02 11:27:58.031 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-02 11:27:58.032 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-02 11:27:58.032 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-02 11:27:58.609 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-02 11:27:59.482 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-02 11:27:59.792 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-02 11:28:03.408 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-02 11:28:03.418 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-02 11:28:03.418 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-02 11:28:03.420 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-02 11:28:03.719 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase8
+2025-12-02 11:28:03.722 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-02 11:28:03.722 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase9
+2025-12-02 11:28:03.732 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-02 11:28:03.736 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-02 11:28:03.736 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 02, 2025 11:28:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-02 11:28:04.553 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d8bb190da457803ad7b0db7b8641412a
+2025-12-02 11:28:04.553 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-12-02 11:28:04.553 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-02 11:28:04.553 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-02 11:28:04.553 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-02 11:28:05.028 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-02 11:28:05.953 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-02 11:28:06.268 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-02 11:28:09.588 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-02 11:28:09.596 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-02 11:28:09.597 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-02 11:28:09.598 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-02 11:28:09.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase9
+2025-12-02 11:28:09.802 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-02 11:28:09.802 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase10
+2025-12-02 11:28:09.809 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-02 11:28:09.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-02 11:28:09.812 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 02, 2025 11:28:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-02 11:28:10.582 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 23de367a7e0bd4b7efeb43ef1acd8f07
+2025-12-02 11:28:10.583 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.176
+2025-12-02 11:28:10.583 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-02 11:28:10.583 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-02 11:28:10.583 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-02 11:28:11.301 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-02 11:28:12.182 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-02 11:28:12.490 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-02 11:28:15.923 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-02 11:28:15.934 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-02 11:28:15.935 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-02 11:28:15.935 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-02 11:28:16.139 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase10
+2025-12-02 11:28:16.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-02 11:28:16.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_02
+2025-12-02 11:28:16.167 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

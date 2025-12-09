@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3</name>
+   <tag></tag>
+   <elementGuidId>128ac48e-306b-400b-89c8-ad72e36cd5b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='upperRowContainer']/div/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Monika Nigam (TS/0128)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>a1dddd33-3098-489d-bb37-b5058ae4ca86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monika Nigam (TS/0128)</value>
+      <webElementGuid>61cad7a9-af73-425a-9e82-aeddc9ef34d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;upperRowContainer&quot;)/div[@class=&quot;card card-body&quot;]/div[@class=&quot;upperRow bar-code-sec&quot;]/div[@class=&quot;addressAvatarContainer&quot;]/div[@class=&quot;avatarContainerInner&quot;]/h3[1]</value>
+      <webElementGuid>485531eb-f15a-453d-8cc5-652cf079a614</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='upperRowContainer']/div/div/div/div/h3</value>
+      <webElementGuid>573aab5c-5ba3-4d04-8226-c938ec749755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/following::h3[1]</value>
+      <webElementGuid>1e2cdf82-94f3-4c91-b38b-7ab4fff960ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Avatar'])[1]/following::h3[1]</value>
+      <webElementGuid>e2f503e9-0676-4a2d-acd6-a008417a269b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HR-Manager'])[1]/preceding::h3[1]</value>
+      <webElementGuid>ecd62ef6-3f18-415c-8189-605d59ee73c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monika Nigam (TS/0128)']/parent::*</value>
+      <webElementGuid>002e26aa-b971-4bd3-b784-6f21074a207a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>947c5680-5ce9-4df4-9e27-c5dbf98c1c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Monika Nigam (TS/0128)' or . = 'Monika Nigam (TS/0128)')]</value>
+      <webElementGuid>32bfeb26-1213-4897-b718-1066d4d447e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

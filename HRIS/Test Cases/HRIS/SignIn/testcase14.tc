@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>testcase14</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be9d6013-ba45-4bc8-a24f-dbdd563e82cf</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d3aa1daa-a049-4cc1-b204-bc0a14d1a082</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/signin/testcase14</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d3aa1daa-a049-4cc1-b204-bc0a14d1a082</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>22f68bb3-102b-46c0-b978-ea8bc6e6a542</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d3aa1daa-a049-4cc1-b204-bc0a14d1a082</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>ee7755ea-90ad-4605-9681-3b74adabd348</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mnigam@trilasoft.com'</defaultValue>
+      <description></description>
+      <id>22f68bb3-102b-46c0-b978-ea8bc6e6a542</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'2PoMj4oAYx42RzXHCsn4SA=='</defaultValue>
+      <description></description>
+      <id>ee7755ea-90ad-4605-9681-3b74adabd348</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

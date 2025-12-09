@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_04" time="32.194" tests="5" failures="0" errors="0">
+   <testsuite name="TS_04" tests="5" failures="0" errors="0" time="32.194" skipped="0" timestamp="2025-12-02T05:59:41.110Z" hostname="Shashi Prasanjit - 192.168.1.3" id="Test Suites/TS_04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Shashi Prasanjit\\Katalon Studio\\HRIS\\Reports\\20251202_112856\\TS_04\\20251202_112859"/>
+         <property name="logFiles" value="C:\\Users\\Shashi Prasanjit\\Katalon Studio\\HRIS\\Reports\\20251202_112856\\TS_04\\20251202_112859\\console0.log, C:\\Users\\Shashi Prasanjit\\Katalon Studio\\HRIS\\Reports\\20251202_112856\\TS_04\\20251202_112859\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shashi Prasanjit - 192.168.1.3"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Chrome 142.0.7444.176"/>
+         <property name="userFullName" value="Shashi Prakash"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="4864e55c2a833441c582e00d6095a510"/>
+         <property name="projectName" value="HRIS"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HRIS/SignIn/testcase16" time="7.508" classname="Test Cases/HRIS/SignIn/testcase16" status="PASSED">
+         <system-out><![CDATA[02-12-2025T11:29:41 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase16: Test Cases/HRIS/SignIn/testcase16
+
+02-12-2025T11:29:41 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-12-2025T11:29:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-12-2025T11:29:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:45 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:29:48 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:29:48 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:29:48 - [TEST_STEP][PASSED] - println(title): null
+
+02-12-2025T11:29:48 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+02-12-2025T11:29:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-12-2025T11:29:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase17" time="5.895" classname="Test Cases/HRIS/SignIn/testcase17" status="PASSED">
+         <system-out><![CDATA[02-12-2025T11:29:49 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase17: Test Cases/HRIS/SignIn/testcase17
+
+02-12-2025T11:29:49 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-12-2025T11:29:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-12-2025T11:29:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:51 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:29:54 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:29:54 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:29:54 - [TEST_STEP][PASSED] - println(title): null
+
+02-12-2025T11:29:54 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+02-12-2025T11:29:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-12-2025T11:29:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase18" time="6.148" classname="Test Cases/HRIS/SignIn/testcase18" status="PASSED">
+         <system-out><![CDATA[02-12-2025T11:29:55 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase18: Test Cases/HRIS/SignIn/testcase18
+
+02-12-2025T11:29:55 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-12-2025T11:29:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-12-2025T11:29:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:29:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:57 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:29:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:00 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:00 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:00 - [TEST_STEP][PASSED] - println(title): null
+
+02-12-2025T11:30:00 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+02-12-2025T11:30:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-12-2025T11:30:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase19" time="6.07" classname="Test Cases/HRIS/SignIn/testcase19" status="PASSED">
+         <system-out><![CDATA[02-12-2025T11:30:01 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase19: Test Cases/HRIS/SignIn/testcase19
+
+02-12-2025T11:30:01 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:30:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-12-2025T11:30:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-12-2025T11:30:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:30:03 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:30:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:30:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:07 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:07 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:07 - [TEST_STEP][PASSED] - println(title): null
+
+02-12-2025T11:30:07 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+02-12-2025T11:30:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-12-2025T11:30:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase20" time="6.008" classname="Test Cases/HRIS/SignIn/testcase20" status="PASSED">
+         <system-out><![CDATA[02-12-2025T11:30:07 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase20: Test Cases/HRIS/SignIn/testcase20
+
+02-12-2025T11:30:07 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:30:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-12-2025T11:30:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-12-2025T11:30:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+02-12-2025T11:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:30:09 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+02-12-2025T11:30:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:30:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+02-12-2025T11:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+02-12-2025T11:30:13 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:13 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+02-12-2025T11:30:13 - [TEST_STEP][PASSED] - println(title): null
+
+02-12-2025T11:30:13 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+02-12-2025T11:30:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-12-2025T11:30:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-12-2025T11:29:41 - [TEST_SUITE][PASSED] - TS_04: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
