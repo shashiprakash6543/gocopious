@@ -40,3 +40,5 @@ WebUI.click(findTestObject('HRIS/Page_Login  TrilaSoft/button_Remember Me_btn bt
 
 // Validate page title should be 'My Dashboard | TrilaSoft'
 WebUI.verifyMatch(WebUI.getWindowTitle(), 'My Dashboard | TrilaSoft', false)
+
+WebUI.closeBrowser()
