@@ -1,0 +1,403 @@
+2025-12-18 00:54:42.228 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-18 00:54:42.233 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-18 00:54:42.385 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/dashboard
+2025-12-18 00:54:42.545 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-18 00:54:42.547 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-18 00:54:42.548 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-18 00:54:42.549 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-18 00:54:42.550 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-18 00:54:42.551 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-18 00:54:43.270 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-18 00:54:43.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/dashboard/mydashboard
+2025-12-18 00:54:43.769 DEBUG testcase.mydashboard                     - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-18 00:54:44.135 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '145']
+2025-12-18 00:54:44.136 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-18 00:54:44.146 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-18 00:54:44.147 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, executionMode=queue, browserVersionType=Dev, usingTunnel=false}']
+2025-12-18 00:54:44.196 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-12-18 00:54:44.473 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-18 00:55:08.181 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:55:08.182 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:55:08.182 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:55:08.629 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = Dev
+2025-12-18 00:55:08.630 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-12-18 00:55:08.630 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-18 00:55:08.634 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "145.0.7572.2",
+  "fedcm:accounts": true,
+  "kt:requestId": "e873c877-3690-4e3a-8b03-ecd90d36756d",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "145.0.7572.2 (68918169e6422bcf7c8ca8cdea509443a35f96a4-refs/branch-heads/7572@{#6})",
+    "userDataDir": "C:\\Program Files\\scoped_dir3840_277433043"
+  },
+  "goog:processID": 4676,
+  "kt:rid": "e873c877-3690-4e3a-8b03-ecd90d36756d",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "80c91f65-19ee-41e8-a0cc-93f74912d1d4",
+    "executionSessionId": "e873c877-3690-4e3a-8b03-ecd90d36756d"
+  },
+  "katalon:options": {
+    "executionId": "80c91f65-19ee-41e8-a0cc-93f74912d1d4",
+    "executionMode": "queue",
+    "executionSessionId": "e873c877-3690-4e3a-8b03-ecd90d36756d",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "435139ed-268d-4e6b-b7e7-3eb19eb98b6f",
+      "organizationId": "2917188",
+      "projectId": "2924007",
+      "channel": "kse;v\u003d10.4.0"
+    },
+    "runFromTestCloud": true,
+    "userId": 1811189,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-18 00:55:08.636 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "80c91f65-19ee-41e8-a0cc-93f74912d1d4",
+  "executionSessionId": "e873c877-3690-4e3a-8b03-ecd90d36756d"
+}
+2025-12-18 00:55:08.637 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 595c5e00c9f7e325eaa697ae0e101660
+2025-12-18 00:55:08.638 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7572.2
+2025-12-18 00:55:08.639 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-18 00:55:08.639 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-18 00:55:08.651 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-18 00:55:13.401 DEBUG testcase.mydashboard                     - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-18 00:55:20.507 DEBUG testcase.mydashboard                     - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-18 00:55:24.030 DEBUG testcase.mydashboard                     - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-18 00:55:36.932 DEBUG testcase.mydashboard                     - 5: click(findTestObject("Object Repository/HRIS/dashboard_menu/Page_My Dashboard  TrilaSoft/a"))
+2025-12-18 00:55:43.127 DEBUG testcase.mydashboard                     - 6: title = getText(findTestObject("Object Repository/HRIS/Page_My Dashboard  TrilaSoft/h3"))
+2025-12-18 00:55:44.639 DEBUG testcase.mydashboard                     - 7: println(title)
+Monika Nigam (TS/0128)
+2025-12-18 00:55:44.666 DEBUG testcase.mydashboard                     - 8: assert title == "Monika Nigam (TS/0128)"
+2025-12-18 00:55:44.672 DEBUG testcase.mydashboard                     - 9: closeBrowser()
+2025-12-18 00:55:45.836 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/dashboard/mydashboard
+2025-12-18 00:55:45.860 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-18 00:55:45.860 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 00:55:45.944 DEBUG testcase.mydocuments                     - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-18 00:55:45.949 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '145']
+2025-12-18 00:55:45.950 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-18 00:55:45.950 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-18 00:55:45.951 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, executionMode=queue, browserVersionType=Dev, usingTunnel=false}']
+2025-12-18 00:55:45.952 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-12-18 00:55:45.957 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-18 00:56:09.317 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:56:09.320 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:56:09.325 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:56:09.377 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = Dev
+2025-12-18 00:56:09.378 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-12-18 00:56:09.378 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-18 00:56:09.379 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "145.0.7572.2",
+  "fedcm:accounts": true,
+  "kt:requestId": "3b45075c-68d9-4a6f-a57b-52568fc15503",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "145.0.7572.2 (68918169e6422bcf7c8ca8cdea509443a35f96a4-refs/branch-heads/7572@{#6})",
+    "userDataDir": "C:\\Program Files\\scoped_dir748_2066184747"
+  },
+  "goog:processID": 5384,
+  "kt:rid": "3b45075c-68d9-4a6f-a57b-52568fc15503",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "ea273456-a54e-4279-8af1-bafc37b6da7f",
+    "executionSessionId": "3b45075c-68d9-4a6f-a57b-52568fc15503"
+  },
+  "katalon:options": {
+    "executionId": "ea273456-a54e-4279-8af1-bafc37b6da7f",
+    "executionMode": "queue",
+    "executionSessionId": "3b45075c-68d9-4a6f-a57b-52568fc15503",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "435139ed-268d-4e6b-b7e7-3eb19eb98b6f",
+      "organizationId": "2917188",
+      "projectId": "2924007",
+      "channel": "kse;v\u003d10.4.0"
+    },
+    "runFromTestCloud": true,
+    "userId": 1811189,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-18 00:56:09.379 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "ea273456-a54e-4279-8af1-bafc37b6da7f",
+  "executionSessionId": "3b45075c-68d9-4a6f-a57b-52568fc15503"
+}
+2025-12-18 00:56:09.380 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2958202bcaf3418e3232015f2c3e9c6b
+2025-12-18 00:56:09.381 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7572.2
+2025-12-18 00:56:09.381 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-18 00:56:09.381 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-18 00:56:09.382 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-18 00:56:12.197 DEBUG testcase.mydocuments                     - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-18 00:56:19.713 DEBUG testcase.mydocuments                     - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-18 00:56:23.684 DEBUG testcase.mydocuments                     - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-18 00:56:36.568 DEBUG testcase.mydocuments                     - 5: click(findTestObject("Object Repository/HRIS/dashboard_menu/Page_My Dashboard  TrilaSoft/a_1"))
+2025-12-18 00:56:42.183 DEBUG testcase.mydocuments                     - 6: title = getText(findTestObject("Object Repository/HRIS/Page_Documents  TrilaSoft/h3"))
+2025-12-18 00:56:43.878 DEBUG testcase.mydocuments                     - 7: println(title)
+Documents
+2025-12-18 00:56:43.890 DEBUG testcase.mydocuments                     - 8: assert title == "Documents"
+2025-12-18 00:56:43.898 DEBUG testcase.mydocuments                     - 9: closeBrowser()
+2025-12-18 00:56:45.481 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-12-18 00:56:45.487 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to close browser (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at mydocuments.run(mydocuments:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765999478281.run(TempTestSuite1765999478281.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [2958202bcaf3418e3232015f2c3e9c6b, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7572.2, chrome: {chromedriverVersion: 145.0.7572.2 (68918169e6422..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 5384, katalon:caps: {executionId: ea273456-a54e-4279-8af1-baf..., executionSessionId: 3b45075c-68d9-4a6f-a57b-525...}, katalon:options: {executionId: ea273456-a54e-4279-8af1-baf..., executionMode: queue, executionSessionId: 3b45075c-68d9-4a6f-a57b-525..., metadata: {accountUuid: 435139ed-268d-4e6b-b7e7-3eb..., channel: kse;v=10.4.0, organizationId: 2917188, projectId: 2924007, usingTunnel: false}, runFromTestCloud: true, userId: 1811189, usingTunnel: false}, kt:requestId: 3b45075c-68d9-4a6f-a57b-525..., kt:rid: 3b45075c-68d9-4a6f-a57b-525..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2958202bcaf3418e3232015f2c3e9c6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:106)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$eYeGBaYA.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:880)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at Script1762284691998.run(Script1762284691998.groovy:32)
+	... 15 more
+)
+2025-12-18 00:56:45.492 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/HRIS/dashboard/mydocuments FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:89)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at mydocuments.run(mydocuments:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1765999478281.run(TempTestSuite1765999478281.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: RESTEASY004655: Unable to invoke request: java.net.SocketException: Socket closed
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [2958202bcaf3418e3232015f2c3e9c6b, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7572.2, chrome: {chromedriverVersion: 145.0.7572.2 (68918169e6422..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 5384, katalon:caps: {executionId: ea273456-a54e-4279-8af1-baf..., executionSessionId: 3b45075c-68d9-4a6f-a57b-525...}, katalon:options: {executionId: ea273456-a54e-4279-8af1-baf..., executionMode: queue, executionSessionId: 3b45075c-68d9-4a6f-a57b-525..., metadata: {accountUuid: 435139ed-268d-4e6b-b7e7-3eb..., channel: kse;v=10.4.0, organizationId: 2917188, projectId: 2924007, usingTunnel: false}, runFromTestCloud: true, userId: 1811189, usingTunnel: false}, kt:requestId: 3b45075c-68d9-4a6f-a57b-525..., kt:rid: 3b45075c-68d9-4a6f-a57b-525..., networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2958202bcaf3418e3232015f2c3e9c6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:106)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$eYeGBaYA.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:880)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-12-18 00:56:45.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 00:56:45.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-18 00:56:45.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 00:56:45.519 DEBUG testcase.mydocuments                     - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-18 00:56:45.523 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '145']
+2025-12-18 00:56:45.523 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-18 00:56:45.523 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-18 00:56:45.523 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, executionMode=queue, browserVersionType=Dev, usingTunnel=false}']
+2025-12-18 00:56:45.526 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+2025-12-18 00:56:45.528 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-18 00:57:08.732 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:57:08.733 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:57:08.734 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-18 00:57:08.784 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = Dev
+2025-12-18 00:57:08.784 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/hub
+2025-12-18 00:57:08.785 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-18 00:57:08.785 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "se:cdpEnabled": false,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "145.0.7572.2",
+  "fedcm:accounts": true,
+  "kt:requestId": "d2a5506a-7c05-4ce1-9e67-f9ecbe08fac2",
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "145.0.7572.2 (68918169e6422bcf7c8ca8cdea509443a35f96a4-refs/branch-heads/7572@{#6})",
+    "userDataDir": "C:\\Program Files\\scoped_dir4244_819825904"
+  },
+  "goog:processID": 4324,
+  "kt:rid": "d2a5506a-7c05-4ce1-9e67-f9ecbe08fac2",
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "se:bidiEnabled": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "webauthn:extension:prf": true,
+  "katalon:caps": {
+    "executionId": "5f3f5b7c-67e7-4395-a2c4-f269bccacf36",
+    "executionSessionId": "d2a5506a-7c05-4ce1-9e67-f9ecbe08fac2"
+  },
+  "katalon:options": {
+    "executionId": "5f3f5b7c-67e7-4395-a2c4-f269bccacf36",
+    "executionMode": "queue",
+    "executionSessionId": "d2a5506a-7c05-4ce1-9e67-f9ecbe08fac2",
+    "metadata": {
+      "usingTunnel": false,
+      "accountUuid": "435139ed-268d-4e6b-b7e7-3eb19eb98b6f",
+      "organizationId": "2917188",
+      "projectId": "2924007",
+      "channel": "kse;v\u003d10.4.0"
+    },
+    "runFromTestCloud": true,
+    "userId": 1811189,
+    "usingTunnel": false
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-18 00:57:08.786 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "5f3f5b7c-67e7-4395-a2c4-f269bccacf36",
+  "executionSessionId": "d2a5506a-7c05-4ce1-9e67-f9ecbe08fac2"
+}
+2025-12-18 00:57:08.787 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7eb3db31f146835961e74b4ab4cf575a
+2025-12-18 00:57:08.787 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7572.2
+2025-12-18 00:57:08.787 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-18 00:57:08.787 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-18 00:57:08.787 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-18 00:57:10.547 DEBUG testcase.mydocuments                     - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-18 00:57:21.176 DEBUG testcase.mydocuments                     - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-18 00:57:25.167 DEBUG testcase.mydocuments                     - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-18 00:57:39.069 DEBUG testcase.mydocuments                     - 5: click(findTestObject("Object Repository/HRIS/dashboard_menu/Page_My Dashboard  TrilaSoft/a_1"))
+2025-12-18 00:57:47.980 DEBUG testcase.mydocuments                     - 6: title = getText(findTestObject("Object Repository/HRIS/Page_Documents  TrilaSoft/h3"))
+2025-12-18 00:57:49.990 DEBUG testcase.mydocuments                     - 7: println(title)
+Documents
+2025-12-18 00:57:49.997 DEBUG testcase.mydocuments                     - 8: assert title == "Documents"
+2025-12-18 00:57:50.000 DEBUG testcase.mydocuments                     - 9: closeBrowser()
+2025-12-18 00:57:52.612 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 00:57:52.683 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-18 00:57:52.683 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/dashboard
+2025-12-18 00:57:52.683 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

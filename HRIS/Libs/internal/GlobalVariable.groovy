@@ -34,6 +34,11 @@ public class GlobalVariable {
      */
     public static Object prodURL
      
+    /**
+     * <p></p>
+     */
+    public static Object browser
+     
 
     static {
         try {
@@ -45,6 +50,7 @@ public class GlobalVariable {
             URL = selectedVariables['URL']
             stagingURL = selectedVariables['stagingURL']
             prodURL = selectedVariables['prodURL']
+            browser = selectedVariables['browser']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

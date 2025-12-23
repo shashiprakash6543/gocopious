@@ -1,0 +1,51 @@
+2025-12-21 13:00:43.058 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-21 13:00:43.063 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-21 13:00:43.416 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/login
+2025-12-21 13:00:43.731 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-21 13:00:43.734 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-21 13:00:43.735 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-21 13:00:43.736 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-21 13:00:43.737 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-21 13:00:43.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-21 13:00:44.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:00:44.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/invalid_login
+2025-12-21 13:00:45.602 DEBUG testcase.invalid_login                   - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:00:46.089 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:00:46.163 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:00:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:00:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:00:49.631 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e8ef05d74887c5e686c2d6968043a1b2
+2025-12-21 13:00:49.634 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:00:49.636 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:00:49.636 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:00:49.670 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:00:50.533 DEBUG testcase.invalid_login                   - 2: closeBrowser()
+2025-12-21 13:00:50.913 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/invalid_login
+2025-12-21 13:00:50.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:00:50.958 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/login
+2025-12-21 13:00:51.188 DEBUG testcase.login                           - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:00:51.205 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:00:51.208 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:00:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:00:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:00:52.445 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 48ff9cd31fa953fe294ee04034bc5e84
+2025-12-21 13:00:52.446 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:00:52.448 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:00:52.449 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:00:52.452 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:00:53.424 DEBUG testcase.login                           - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:00:55.741 DEBUG testcase.login                           - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:00:56.689 DEBUG testcase.login                           - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:01:01.718 DEBUG testcase.login                           - 5: title = getWindowTitle()
+2025-12-21 13:01:01.767 DEBUG testcase.login                           - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:01:01.778 DEBUG testcase.login                           - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:01:01.786 DEBUG testcase.login                           - 8: closeBrowser()
+2025-12-21 13:01:04.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/login
+2025-12-21 13:01:04.533 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-21 13:01:04.534 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/login
+2025-12-21 13:01:04.534 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

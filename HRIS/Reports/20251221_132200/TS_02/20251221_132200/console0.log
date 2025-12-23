@@ -1,0 +1,127 @@
+2025-12-21 13:22:06.568 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-21 13:22:06.578 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-21 13:22:07.016 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_02
+2025-12-21 13:22:07.716 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-21 13:22:07.718 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-21 13:22:07.720 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-21 13:22:07.721 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-21 13:22:07.722 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-21 13:22:07.724 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-21 13:22:08.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:22:08.934 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase6
+2025-12-21 13:22:09.659 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:22:10.101 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:22:10.223 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:22:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:22:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:22:14.280 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b315d4ff16067b5fb53fa245369c8d3d
+2025-12-21 13:22:14.283 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:22:14.284 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:22:14.285 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:22:14.305 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:22:15.050 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:22:17.299 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:22:18.207 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:22:23.241 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-21 13:22:23.291 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:22:23.302 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:22:23.310 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-21 13:22:23.803 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase6
+2025-12-21 13:22:23.834 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:22:23.835 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase7
+2025-12-21 13:22:23.878 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:22:23.886 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:22:23.887 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:22:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:22:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:22:25.124 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0aa06c0db4d60dc07fc91a8f91fe1168
+2025-12-21 13:22:25.125 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:22:25.126 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:22:25.127 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:22:25.128 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:22:26.152 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:22:27.743 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:22:28.718 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:22:33.065 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-21 13:22:33.089 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:22:33.091 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:22:33.096 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-21 13:22:33.508 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase7
+2025-12-21 13:22:33.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:22:33.515 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase8
+2025-12-21 13:22:33.551 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:22:33.557 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:22:33.560 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:22:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:22:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:22:34.833 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cb6920abcbc1712c7071f308dfb4717d
+2025-12-21 13:22:34.834 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:22:34.835 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:22:34.836 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:22:34.838 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:22:35.619 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:22:37.107 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:22:38.005 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:22:43.016 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-21 13:22:43.063 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:22:43.070 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:22:43.075 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-21 13:22:43.434 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase8
+2025-12-21 13:22:43.455 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:22:43.455 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase9
+2025-12-21 13:22:43.500 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:22:43.510 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:22:43.515 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:22:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:22:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:22:44.758 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c1004ea6bf7bf1523e8c9dd37bd8a77e
+2025-12-21 13:22:44.759 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:22:44.760 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:22:44.761 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:22:44.762 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:22:45.552 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:22:46.920 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:22:47.817 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:22:52.326 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-21 13:22:52.356 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:22:52.359 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:22:52.362 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-21 13:22:52.754 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase9
+2025-12-21 13:22:52.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-21 13:22:52.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase10
+2025-12-21 13:22:52.798 DEBUG testcase.testcase6                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-21 13:22:52.805 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-21 13:22:52.806 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 21, 2025 1:22:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 21, 2025 1:22:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-21 13:22:53.997 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c1fdc9102dd3d3b4f8438cb8bef035cb
+2025-12-21 13:22:53.998 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-21 13:22:53.999 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-21 13:22:54.000 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-21 13:22:54.001 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-21 13:22:54.798 DEBUG testcase.testcase6                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-21 13:22:55.962 DEBUG testcase.testcase6                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-21 13:22:56.863 DEBUG testcase.testcase6                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-21 13:23:01.881 DEBUG testcase.testcase6                       - 5: title = getWindowTitle()
+2025-12-21 13:23:01.916 DEBUG testcase.testcase6                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-21 13:23:01.919 DEBUG testcase.testcase6                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-21 13:23:01.922 DEBUG testcase.testcase6                       - 8: closeBrowser()
+2025-12-21 13:23:02.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase10
+2025-12-21 13:23:02.361 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-21 13:23:02.361 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_02
+2025-12-21 13:23:02.361 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

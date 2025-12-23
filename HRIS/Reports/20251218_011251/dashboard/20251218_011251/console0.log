@@ -1,0 +1,56 @@
+2025-12-18 01:12:56.280 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-18 01:12:56.284 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-18 01:12:56.452 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/dashboard
+2025-12-18 01:12:56.621 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-18 01:12:56.624 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-18 01:12:56.625 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-18 01:12:56.626 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-18 01:12:56.627 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-18 01:12:56.628 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-18 01:12:57.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-18 01:12:57.256 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/dashboard/mydashboard
+2025-12-18 01:12:57.708 DEBUG testcase.mydashboard                     - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-18 01:12:58.014 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-18 01:12:58.072 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 18, 2025 1:12:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-18 01:13:00.151 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e6de5bcdebd9fefa5ea51da4563d1503
+2025-12-18 01:13:00.155 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-18 01:13:00.156 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-18 01:13:00.156 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-18 01:13:00.165 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-18 01:13:01.467 DEBUG testcase.mydashboard                     - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-18 01:13:02.869 DEBUG testcase.mydashboard                     - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-18 01:13:03.877 DEBUG testcase.mydashboard                     - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-18 01:13:08.264 DEBUG testcase.mydashboard                     - 5: click(findTestObject("Object Repository/HRIS/dashboard_menu/Page_My Dashboard  TrilaSoft/a"))
+2025-12-18 01:13:10.670 DEBUG testcase.mydashboard                     - 6: title = getText(findTestObject("Object Repository/HRIS/Page_My Dashboard  TrilaSoft/h3"))
+2025-12-18 01:13:11.183 DEBUG testcase.mydashboard                     - 7: println(title)
+Monika Nigam (TS/0128)
+2025-12-18 01:13:11.202 DEBUG testcase.mydashboard                     - 8: assert title == "Monika Nigam (TS/0128)"
+2025-12-18 01:13:11.212 DEBUG testcase.mydashboard                     - 9: closeBrowser()
+2025-12-18 01:13:11.680 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/dashboard/mydashboard
+2025-12-18 01:13:11.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-18 01:13:11.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 01:13:12.328 DEBUG testcase.mydocuments                     - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-18 01:13:12.335 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-18 01:13:12.338 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 18, 2025 1:13:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-12-18 01:13:13.950 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = eb39c4a0b3f535598921dc011ab1932e
+2025-12-18 01:13:13.956 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 142.0.7444.177
+2025-12-18 01:13:13.961 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-18 01:13:13.962 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-18 01:13:13.971 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-18 01:13:14.780 DEBUG testcase.mydocuments                     - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-18 01:13:15.887 DEBUG testcase.mydocuments                     - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-18 01:13:16.584 DEBUG testcase.mydocuments                     - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-18 01:13:21.348 DEBUG testcase.mydocuments                     - 5: click(findTestObject("Object Repository/HRIS/dashboard_menu/Page_My Dashboard  TrilaSoft/a_1"))
+2025-12-18 01:13:22.529 DEBUG testcase.mydocuments                     - 6: title = getText(findTestObject("Object Repository/HRIS/Page_Documents  TrilaSoft/h3"))
+2025-12-18 01:13:23.119 DEBUG testcase.mydocuments                     - 7: println(title)
+Documents
+2025-12-18 01:13:23.130 DEBUG testcase.mydocuments                     - 8: assert title == "Documents"
+2025-12-18 01:13:23.137 DEBUG testcase.mydocuments                     - 9: closeBrowser()
+2025-12-18 01:13:23.485 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/dashboard/mydocuments
+2025-12-18 01:13:23.592 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-18 01:13:23.593 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/dashboard
+2025-12-18 01:13:23.593 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

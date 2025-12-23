@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="66.306" tests="2" failures="0" errors="0">
+   <testsuite name="login" tests="2" failures="0" errors="0" time="66.306" skipped="0" timestamp="2025-12-18T20:34:38.081Z" hostname="Shashi Prasanjit - Shashi" id="Test Suites/login">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251219_020426\\login\\20251219_020426"/>
+         <property name="logFiles" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251219_020426\\login\\20251219_020426\\console0.log, C:\\githubproject\\gocopious\\HRIS\\Reports\\20251219_020426\\login\\20251219_020426\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shashi Prasanjit - Shashi"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="userFullName" value="Shashi Prakash"/>
+         <property name="sessionId" value="d958b933-4a7c-4bed-bbb3-384fa2fab577"/>
+         <property name="browserVersionType" value="Dev"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;145.0.7572.2 (68918169e6422bcf7c8ca8cdea509443a35f96a4-refs/branch-heads/7572@{#6})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir2252_416864536&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;goog:processID&quot;: 800,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;145.0.7572.2&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;9c6d9b97-fed3-4ee5-af72-41bd50efd492&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;d958b933-4a7c-4bed-bbb3-384fa2fab577&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;9c6d9b97-fed3-4ee5-af72-41bd50efd492&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;d958b933-4a7c-4bed-bbb3-384fa2fab577&quot;,&#xa;    &quot;runFromTestCloud&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;9c6d9b97-fed3-4ee5-af72-41bd50efd492&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;d958b933-4a7c-4bed-bbb3-384fa2fab577&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 145.0.7572.2"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="projectName" value="HRIS"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+      </properties>
+      <testcase name="Test Cases/HRIS/SignIn/invalid_login" time="17.429" classname="Test Cases/HRIS/SignIn/invalid_login" status="PASSED">
+         <system-out><![CDATA[19-12-2025T02:04:40 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/invalid_login: Test Cases/HRIS/SignIn/invalid_login
+
+19-12-2025T02:04:41 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+19-12-2025T02:04:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', '145']
+
+19-12-2025T02:04:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+19-12-2025T02:04:43 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+19-12-2025T02:04:43 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, executionMode=queue, browserVersionType=Dev, usingTunnel=false}']
+
+19-12-2025T02:04:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+19-12-2025T02:04:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2025T02:04:53 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:04:53 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:04:53 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:04:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+19-12-2025T02:04:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2025T02:04:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/login" time="46.566" classname="Test Cases/HRIS/SignIn/login" status="PASSED">
+         <system-out><![CDATA[19-12-2025T02:04:57 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/login: Test Cases/HRIS/SignIn/login
+
+19-12-2025T02:04:57 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - User set preference: ['browserVersion', '145']
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, executionMode=queue, browserVersionType=Dev, usingTunnel=false}']
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+19-12-2025T02:04:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-12-2025T02:05:17 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:05:17 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:05:17 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+19-12-2025T02:05:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+19-12-2025T02:05:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+19-12-2025T02:05:27 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+19-12-2025T02:05:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+19-12-2025T02:05:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+19-12-2025T02:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+19-12-2025T02:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+19-12-2025T02:05:43 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+19-12-2025T02:05:43 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+19-12-2025T02:05:43 - [TEST_STEP][PASSED] - println(title): null
+
+19-12-2025T02:05:43 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+19-12-2025T02:05:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-12-2025T02:05:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2025T02:04:38 - [TEST_SUITE][PASSED] - login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

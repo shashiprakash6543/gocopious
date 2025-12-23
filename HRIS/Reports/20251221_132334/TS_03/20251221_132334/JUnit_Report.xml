@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_03" time="115.142" tests="5" failures="1" errors="0">
+   <testsuite name="TS_03" tests="5" failures="1" errors="0" time="115.142" skipped="0" timestamp="2025-12-21T07:53:41.941Z" hostname="Shashi Prasanjit - Shashi" id="Test Suites/TS_03">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_132334\\TS_03\\20251221_132334"/>
+         <property name="logFiles" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_132334\\TS_03\\20251221_132334\\console0.log, C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_132334\\TS_03\\20251221_132334\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shashi Prasanjit - Shashi"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Chrome 143.0.7499.147"/>
+         <property name="userFullName" value="Shashi Prakash"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="1fc4488a9d112765665e2373d89793ea"/>
+         <property name="projectName" value="HRIS"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HRIS/SignIn/testcase11" time="14.635" classname="Test Cases/HRIS/SignIn/testcase11" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"mnigam@trilasoft.com","(Default) passw...":"2PoMj4oAYx42RzXHCsn4SA\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-12-2025T13:23:43 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase11: Test Cases/HRIS/SignIn/testcase11
+
+21-12-2025T13:23:44 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:23:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T13:23:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T13:23:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:23:51 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:23:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:23:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:23:57 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:23:57 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:23:57 - [TEST_STEP][PASSED] - println(title): null
+
+21-12-2025T13:23:57 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+21-12-2025T13:23:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2025T13:23:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase12" time="10.161" classname="Test Cases/HRIS/SignIn/testcase12" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"mnigam@trilasoft.com","(Default) passw...":"2PoMj4oAYx42RzXHCsn4SA\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-12-2025T13:23:58 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase12: Test Cases/HRIS/SignIn/testcase12
+
+21-12-2025T13:23:58 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:23:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T13:23:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T13:24:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:02 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:07 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:08 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:08 - [TEST_STEP][PASSED] - println(title): null
+
+21-12-2025T13:24:08 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+21-12-2025T13:24:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2025T13:24:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase13" time="10.091" classname="Test Cases/HRIS/SignIn/testcase13" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"mnigam@trilasoft.com","(Default) passw...":"2PoMj4oAYx42RzXHCsn4SA\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-12-2025T13:24:08 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase13: Test Cases/HRIS/SignIn/testcase13
+
+21-12-2025T13:24:08 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T13:24:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T13:24:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:12 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:18 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:18 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:18 - [TEST_STEP][PASSED] - println(title): null
+
+21-12-2025T13:24:18 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+21-12-2025T13:24:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2025T13:24:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase14" time="9.678" classname="Test Cases/HRIS/SignIn/testcase14" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"mnigam@trilasoft.com","(Default) passw...":"2PoMj4oAYx42RzXHCsn4SA\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-12-2025T13:24:18 - [TEST_CASE][PASSED] - Test Cases/HRIS/SignIn/testcase14: Test Cases/HRIS/SignIn/testcase14
+
+21-12-2025T13:24:18 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T13:24:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T13:24:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:21 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:24:27 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:27 - [MESSAGE][PASSED] - Current window's title is: 'My Dashboard | TrilaSoft'
+
+21-12-2025T13:24:27 - [TEST_STEP][PASSED] - println(title): null
+
+21-12-2025T13:24:27 - [TEST_STEP][PASSED] - assert title == "My Dashboard | TrilaSoft": null
+
+21-12-2025T13:24:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2025T13:24:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HRIS/SignIn/testcase15" time="68.917" classname="Test Cases/HRIS/SignIn/testcase15" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"mnigam@trilasoft.com","(Default) passw...":"2PoMj4oAYx42RzXHCsn4SA\u003d\u003d"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/HRIS/SignIn/testcase15 FAILED.&#xa;Reason:&#xa;Assertion failed: &#xa;&#xa;assert title == &quot;My Dashboard | TrilaSoft&quot;&#xa;       |     |&#xa;       |     false&#xa;       'qahris.trilasoft.com'&#xa;&#xa;	at testcase12.run(testcase12:29)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1766303614100.run(TempTestSuite1766303614100.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-12-2025T13:24:28 - [TEST_CASE][FAILED] - Test Cases/HRIS/SignIn/testcase15: Test Cases/HRIS/SignIn/testcase15 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'qahris.trilasoft.com'
+
+	at testcase12.run(testcase12:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766303614100.run(TempTestSuite1766303614100.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-12-2025T13:24:28 - [TEST_STEP][PASSED] - openBrowser("https://qahris.trilasoft.com/"): Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T13:24:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T13:24:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qahris.trilasoft.com/'
+
+21-12-2025T13:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username): Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:31 - [MESSAGE][PASSED] - Text 'mnigam@trilasoft.com' is set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email'
+
+21-12-2025T13:24:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password): Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password'
+
+21-12-2025T13:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary")): Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary' is clicked on
+
+21-12-2025T13:25:37 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'qahris.trilasoft.com'
+
+21-12-2025T13:25:37 - [MESSAGE][PASSED] - Current window's title is: 'qahris.trilasoft.com'
+
+21-12-2025T13:25:37 - [TEST_STEP][PASSED] - println(title): null
+
+21-12-2025T13:25:37 - [TEST_STEP][FAILED] - assert title == "My Dashboard | TrilaSoft": Test Cases/HRIS/SignIn/testcase15 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'qahris.trilasoft.com'
+
+	at testcase12.run(testcase12:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766303614100.run(TempTestSuite1766303614100.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-12-2025T13:25:37 - [MESSAGE][FAILED] - Test Cases/HRIS/SignIn/testcase15 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'qahris.trilasoft.com'
+
+	at testcase12.run(testcase12:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766303614100.run(TempTestSuite1766303614100.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-12-2025T13:24:28 - [TEST_CASE][FAILED] - Test Cases/HRIS/SignIn/testcase15: Test Cases/HRIS/SignIn/testcase15 FAILED.
+Reason:
+Assertion failed: 
+
+assert title == "My Dashboard | TrilaSoft"
+       |     |
+       |     false
+       'qahris.trilasoft.com'
+
+	at testcase12.run(testcase12:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766303614100.run(TempTestSuite1766303614100.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-12-2025T13:23:41 - [TEST_SUITE][FAILED] - TS_03: null]]></system-out>
+      <system-err><![CDATA[21-12-2025T13:23:41 - [TEST_SUITE][FAILED] - TS_03: null]]></system-err>
+   </testsuite>
+</testsuites>

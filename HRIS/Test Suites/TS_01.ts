@@ -33,7 +33,7 @@
    <testCaseLink>
       <guid>a58b6107-f324-473c-a499-036f84b96608</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HRIS/SignIn/testcase2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -52,7 +52,7 @@
    <testCaseLink>
       <guid>a2e94917-3008-4b21-b6e4-242996482e9a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HRIS/SignIn/testcase3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -71,7 +71,7 @@
    <testCaseLink>
       <guid>7f3ef3e5-2679-42d5-b3a3-7a4a54048bac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HRIS/SignIn/testcase4</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -90,7 +90,7 @@
    <testCaseLink>
       <guid>4f451f66-64a7-419d-9e14-e9f4d5e3bb4b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HRIS/SignIn/testcase5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

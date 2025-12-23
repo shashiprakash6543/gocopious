@@ -1,0 +1,30 @@
+2025-12-20 02:33:47.010 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-20 02:33:47.014 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-20 02:33:47.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS-testcloud
+2025-12-20 02:33:47.636 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-20 02:33:47.638 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-20 02:33:47.640 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-20 02:33:47.641 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-20 02:33:47.643 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-20 02:33:47.646 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-20 02:33:48.936 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-20 02:33:48.937 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/studioassist/testcloud
+2025-12-20 02:33:49.433 DEBUG testcase.testcloud                       - 1: openBrowser("")
+2025-12-20 02:33:49.980 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-20 02:33:50.071 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 20, 2025 2:33:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 20, 2025 2:33:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-20 02:33:54.119 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d0c806ae0c6875aeca6017125fcdfa65
+2025-12-20 02:33:54.121 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-20 02:33:54.123 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-20 02:33:54.125 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-20 02:33:54.152 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-20 02:33:54.336 DEBUG testcase.testcloud                       - 2: navigateToUrl("file:///C:/Users/Shashi Prasanjit/Desktop/!DOCTYPE.html")
+2025-12-20 02:33:54.505 DEBUG testcase.testcloud                       - 3: delay(5)
+2025-12-20 02:33:59.634 DEBUG testcase.testcloud                       - 4: closeBrowser()
+2025-12-20 02:33:59.931 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/studioassist/testcloud
+2025-12-20 02:33:59.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-20 02:33:59.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS-testcloud
+2025-12-20 02:33:59.997 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

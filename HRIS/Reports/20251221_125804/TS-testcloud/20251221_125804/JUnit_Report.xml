@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-testcloud" time="12.937" tests="1" failures="0" errors="0">
+   <testsuite name="TS-testcloud" tests="1" failures="0" errors="0" time="12.937" skipped="0" timestamp="2025-12-21T07:29:11.733Z" hostname="Shashi Prasanjit - Shashi" id="Test Suites/TS-testcloud">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_125804\\TS-testcloud\\20251221_125804"/>
+         <property name="logFiles" value="C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_125804\\TS-testcloud\\20251221_125804\\console0.log, C:\\githubproject\\gocopious\\HRIS\\Reports\\20251221_125804\\TS-testcloud\\20251221_125804\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Shashi Prasanjit - Shashi"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.4.0.0"/>
+         <property name="browser" value="Chrome 143.0.7499.147"/>
+         <property name="userFullName" value="Shashi Prakash"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="ffa1ea3f325a40e25a6fc2b4ba43bf3c"/>
+         <property name="projectName" value="HRIS"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HRIS/studioassist/testcloud" time="11.735" classname="Test Cases/HRIS/studioassist/testcloud" status="PASSED">
+         <system-out><![CDATA[21-12-2025T12:59:12 - [TEST_CASE][PASSED] - Test Cases/HRIS/studioassist/testcloud: Test Cases/HRIS/studioassist/testcloud
+
+21-12-2025T12:59:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-12-2025T12:59:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-12-2025T12:59:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-12-2025T12:59:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-12-2025T12:59:19 - [TEST_STEP][PASSED] - navigateToUrl("file:///C:/Users/Shashi Prasanjit/Desktop/!DOCTYPE.html"): Navigate to 'file:/C:/Users/Shashi Prasanjit/Desktop/!DOCTYPE.html' successfully
+
+21-12-2025T12:59:19 - [MESSAGE][PASSED] - Navigate to 'file:/C:/Users/Shashi Prasanjit/Desktop/!DOCTYPE.html' successfully
+
+21-12-2025T12:59:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-12-2025T12:59:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-12-2025T12:59:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-12-2025T12:59:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-12-2025T12:59:11 - [TEST_SUITE][PASSED] - TS-testcloud: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

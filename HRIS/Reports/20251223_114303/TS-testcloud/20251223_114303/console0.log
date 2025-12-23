@@ -1,0 +1,108 @@
+2025-12-23 11:43:07.987 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-23 11:43:07.991 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-23 11:43:08.199 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS-testcloud
+2025-12-23 11:43:08.364 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-23 11:43:08.366 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-23 11:43:08.367 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-23 11:43:08.367 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-23 11:43:08.368 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-23 11:43:08.369 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-23 11:43:09.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-23 11:43:09.320 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/studioassist/testcloud
+2025-12-23 11:43:09.802 DEBUG testcase.testcloud                       - 1: openBrowser("")
+2025-12-23 11:43:10.215 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '145']
+2025-12-23 11:43:10.216 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-23 11:43:10.227 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-23 11:43:10.227 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=2917188, accountId=1625304, channel=kse;v=10.4.0, projectId=2924007}, tunnelId=, executionMode=queue, browserVersionType=Dev, usingTunnel=true}']
+2025-12-23 11:43:10.295 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-23 11:43:10.956 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-23 11:43:48.133 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2584)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2610)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:772)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5018)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4921)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3836)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-12-23 11:43:48.210 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-23 11:43:48.212 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-23 11:43:48.213 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-23 11:43:48.772 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = Dev
+2025-12-23 11:43:48.773 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-12-23 11:43:48.774 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-23 11:43:48.777 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "145.0.7572.2 (68918169e6422bcf7c8ca8cdea509443a35f96a4-refs/branch-heads/7572@{#6})",
+    "userDataDir": "C:\\Windows\\SystemTemp\\scoped_dir1584_2070070584"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 2352,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "145.0.7572.2",
+  "katalon:caps": {
+    "executionId": "7bf92fe5-7cb7-4367-aa73-b67a2384ec55",
+    "executionSessionId": "4bd88cf7-219b-4274-ba56-64764bd49a4c"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "7bf92fe5-7cb7-4367-aa73-b67a2384ec55",
+    "executionSessionId": "4bd88cf7-219b-4274-ba56-64764bd49a4c",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-23 11:43:48.780 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "7bf92fe5-7cb7-4367-aa73-b67a2384ec55",
+  "executionSessionId": "4bd88cf7-219b-4274-ba56-64764bd49a4c"
+}
+2025-12-23 11:43:48.781 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4bd88cf7-219b-4274-ba56-64764bd49a4c
+2025-12-23 11:43:48.782 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 145.0.7572.2
+2025-12-23 11:43:48.783 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-23 11:43:48.783 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-23 11:43:48.798 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-23 11:43:49.442 DEBUG testcase.testcloud                       - 2: navigateToUrl("http://localhost:3000")
+2025-12-23 11:43:52.556 DEBUG testcase.testcloud                       - 3: delay(5)
+2025-12-23 11:43:57.639 DEBUG testcase.testcloud                       - 4: closeBrowser()
+2025-12-23 11:43:58.567 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/studioassist/testcloud
+2025-12-23 11:43:58.631 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-23 11:43:58.631 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS-testcloud
+2025-12-23 11:43:58.631 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

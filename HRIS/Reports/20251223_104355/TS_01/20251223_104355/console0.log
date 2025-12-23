@@ -1,0 +1,37 @@
+2025-12-23 10:44:08.452 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Shashi Prasanjit\.katalon\packages\KSE-10.4.0\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-12-23 10:44:08.499 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\githubproject\gocopious\HRIS\Include\config\log.properties
+2025-12-23 10:44:09.278 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_01
+2025-12-23 10:44:10.237 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Shashi Prakash
+2025-12-23 10:44:10.259 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = HRIS
+2025-12-23 10:44:10.281 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Shashi Prasanjit - Shashi
+2025-12-23 10:44:10.286 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-12-23 10:44:10.295 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.4
+2025-12-23 10:44:10.313 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.0.0
+2025-12-23 10:44:14.049 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-23 10:44:14.050 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/HRIS/SignIn/testcase1
+2025-12-23 10:44:14.489 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) username = mnigam@trilasoft.com
+2025-12-23 10:44:14.593 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) password = 2PoMj4oAYx42RzXHCsn4SA==
+2025-12-23 10:44:16.623 DEBUG testcase.testcase1                       - 1: openBrowser("https://qahris.trilasoft.com/")
+2025-12-23 10:44:18.585 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-23 10:44:18.974 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 23, 2025 10:44:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 23, 2025 10:44:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.147. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-23 10:44:28.251 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1818141b7d364e012a328b90c4a942c3
+2025-12-23 10:44:28.255 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.147
+2025-12-23 10:44:28.257 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-12-23 10:44:28.260 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-12-23 10:44:28.327 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-23 10:44:29.733 DEBUG testcase.testcase1                       - 2: setText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email"), username)
+2025-12-23 10:44:33.030 DEBUG testcase.testcase1                       - 3: setEncryptedText(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password"), password)
+2025-12-23 10:44:34.060 DEBUG testcase.testcase1                       - 4: click(findTestObject("Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary"))
+2025-12-23 10:44:40.422 DEBUG testcase.testcase1                       - 5: title = getWindowTitle()
+2025-12-23 10:44:40.559 DEBUG testcase.testcase1                       - 6: println(title)
+My Dashboard | TrilaSoft
+2025-12-23 10:44:40.581 DEBUG testcase.testcase1                       - 7: assert title == "My Dashboard | TrilaSoft"
+2025-12-23 10:44:40.597 DEBUG testcase.testcase1                       - 8: closeBrowser()
+2025-12-23 10:44:41.775 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/HRIS/SignIn/testcase1
+2025-12-23 10:44:41.952 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-23 10:44:41.952 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_01
+2025-12-23 10:44:41.952 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

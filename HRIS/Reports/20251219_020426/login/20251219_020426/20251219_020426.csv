@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:38,19-12-2025 02:05:44,1m - 6.363s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/invalid_login,TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:40,19-12-2025 02:04:57,17.429s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:41,19-12-2025 02:04:57,15.101s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:57,19-12-2025 02:04:57,0.689s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/login,TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:57,19-12-2025 02:05:44,46.566s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:04:57,19-12-2025 02:05:20,22.097s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:20,19-12-2025 02:05:27,7.364s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:27,19-12-2025 02:05:30,3.579s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:30,19-12-2025 02:05:43,12.047s,PASSED
+title = getWindowTitle(),TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:43,19-12-2025 02:05:43,0.390s,PASSED
+println(title),TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:43,19-12-2025 02:05:43,0.016s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:43,19-12-2025 02:05:43,0.007s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 145.0.7572.2 Dev,,,19-12-2025 02:05:43,19-12-2025 02:05:44,0.926s,PASSED

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02,Chrome 142.0.7444.177,,,18-12-2025 23:22:46,18-12-2025 23:23:52,1m - 6.555s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/testcase6,Chrome 142.0.7444.177,,,18-12-2025 23:22:47,18-12-2025 23:23:04,17.302s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",Chrome 142.0.7444.177,,,18-12-2025 23:22:48,18-12-2025 23:22:54,5.821s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",Chrome 142.0.7444.177,,,18-12-2025 23:22:54,18-12-2025 23:22:57,3.483s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",Chrome 142.0.7444.177,,,18-12-2025 23:22:57,18-12-2025 23:22:59,1.311s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",Chrome 142.0.7444.177,,,18-12-2025 23:22:59,18-12-2025 23:23:04,5.262s,PASSED
+title = getWindowTitle(),Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:04,0.079s,PASSED
+println(title),Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:04,0.010s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:04,0.007s,PASSED
+closeBrowser(),Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:04,0.430s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/testcase7,Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:17,12.688s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",Chrome 142.0.7444.177,,,18-12-2025 23:23:04,18-12-2025 23:23:07,2.905s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",Chrome 142.0.7444.177,,,18-12-2025 23:23:07,18-12-2025 23:23:10,2.870s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",Chrome 142.0.7444.177,,,18-12-2025 23:23:10,18-12-2025 23:23:11,1.301s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",Chrome 142.0.7444.177,,,18-12-2025 23:23:11,18-12-2025 23:23:17,5.214s,PASSED
+title = getWindowTitle(),Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:17,0.055s,PASSED
+println(title),Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:17,0.002s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:17,0.001s,PASSED
+closeBrowser(),Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:17,0.287s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/testcase8,Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:29,12.265s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",Chrome 142.0.7444.177,,,18-12-2025 23:23:17,18-12-2025 23:23:19,2.194s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",Chrome 142.0.7444.177,,,18-12-2025 23:23:19,18-12-2025 23:23:22,2.559s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",Chrome 142.0.7444.177,,,18-12-2025 23:23:22,18-12-2025 23:23:23,1.175s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",Chrome 142.0.7444.177,,,18-12-2025 23:23:23,18-12-2025 23:23:29,5.926s,PASSED
+title = getWindowTitle(),Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:29,0.039s,PASSED
+println(title),Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:29,0.002s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:29,0.003s,PASSED
+closeBrowser(),Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:29,0.323s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/testcase9,Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:40,10.997s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",Chrome 142.0.7444.177,,,18-12-2025 23:23:29,18-12-2025 23:23:32,2.172s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",Chrome 142.0.7444.177,,,18-12-2025 23:23:32,18-12-2025 23:23:34,2.371s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",Chrome 142.0.7444.177,,,18-12-2025 23:23:34,18-12-2025 23:23:35,1.205s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",Chrome 142.0.7444.177,,,18-12-2025 23:23:35,18-12-2025 23:23:40,4.829s,PASSED
+title = getWindowTitle(),Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:40,0.049s,PASSED
+println(title),Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:40,0.002s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:40,0.005s,PASSED
+closeBrowser(),Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:40,0.333s,PASSED
+,,,,,,,
+Test Cases/HRIS/SignIn/testcase10,Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:52,11.849s,PASSED
+"openBrowser(""https://qahris.trilasoft.com/"")",Chrome 142.0.7444.177,,,18-12-2025 23:23:40,18-12-2025 23:23:43,3.110s,PASSED
+"setText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_email""), username)",Chrome 142.0.7444.177,,,18-12-2025 23:23:43,18-12-2025 23:23:45,1.927s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/input_Remember Me_password""), password)",Chrome 142.0.7444.177,,,18-12-2025 23:23:45,18-12-2025 23:23:47,1.193s,PASSED
+"click(findTestObject(""Object Repository/HRIS/Page_Login  TrilaSoft/button_Remember Me_btn btn-primary""))",Chrome 142.0.7444.177,,,18-12-2025 23:23:47,18-12-2025 23:23:52,5.119s,PASSED
+title = getWindowTitle(),Chrome 142.0.7444.177,,,18-12-2025 23:23:52,18-12-2025 23:23:52,0.035s,PASSED
+println(title),Chrome 142.0.7444.177,,,18-12-2025 23:23:52,18-12-2025 23:23:52,0.004s,PASSED
+"assert title == ""My Dashboard | TrilaSoft""",Chrome 142.0.7444.177,,,18-12-2025 23:23:52,18-12-2025 23:23:52,0.003s,PASSED
+closeBrowser(),Chrome 142.0.7444.177,,,18-12-2025 23:23:52,18-12-2025 23:23:52,0.430s,PASSED
