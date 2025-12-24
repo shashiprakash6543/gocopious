@@ -13,8 +13,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/TS-testcloud')
-suiteProperties.put('name', 'TS-testcloud')
+suiteProperties.put('id', 'Test Suites/login')
+suiteProperties.put('name', 'login')
 suiteProperties.put('description', '')
 suiteProperties.put('rerunTestFailImmediately', 'true')
 suiteProperties.put('retryCount', '3')
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\githubproject\\gocopious\\HRIS\\Reports\\20251223_104206\\TS-testcloud\\20251223_104207\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\githubproject\\gocopious\\HRIS\\Reports\\20251224_212755\\login\\20251224_212755\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/TS-testcloud', suiteProperties, new File("C:\\githubproject\\gocopious\\HRIS\\Reports\\20251223_104206\\TS-testcloud\\20251223_104207\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/login', suiteProperties, new File("C:\\githubproject\\gocopious\\HRIS\\Reports\\20251224_212755\\login\\20251224_212755\\testCaseBinding"))
